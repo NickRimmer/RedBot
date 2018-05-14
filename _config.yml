@@ -35,3 +35,11 @@ markdown: kramdown
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - "*.bat"
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed

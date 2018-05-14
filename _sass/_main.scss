@@ -1,0 +1,16 @@
+body{
+    background: url("/assets/img/bg.jpg") top center no-repeat;
+}
+
+.site-header{
+    background: white;
+    height: 75px;
+    border-bottom: solid 1px #a2cbec;
+    box-shadow: 0.157px 2.996px 6.72px 0.28px rgba(59, 151, 226, 0.13);
+
+    .container{
+        &, .row{
+            height: 100%;
+        }
+    }
+}

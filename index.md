@@ -2,5 +2,10 @@
 layout: empty
 ---
 
-<meta http-equiv="refresh" content="0; url=/pages/ru/">
-<link rel="canonical" href="/pages/ru/" />
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script>
+    var lang = Cookies.get('lang');
+    if(lang==undefined) lang="{{site.default_lang}}";
+
+    location="/pages/"+lang+"/welcome/";
+</script>

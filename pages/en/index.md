@@ -1,4 +1,6 @@
 ---
-title: Welcome friend!
+layout: empty
 ---
-Please, choose some category in menu
+
+<meta http-equiv="refresh" content="0; url=/pages/{{page.lang}}/welcome/">
+<link rel="canonical" href="/pages/{{page.lang}}/welcome/" />

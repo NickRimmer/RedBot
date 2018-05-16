@@ -1,7 +1,7 @@
 <header class="site-header">
     <div class="container">
         <div class="d-flex h-100">
-            <div class="align-self-center"><a href="/"><img src="/assets/img/logo.png"></a></div>
+            <div class="align-self-center"><a href="{% if page.lang %}/pages/{{page.lang}}/welcome/{% else %}/{% endif %}"><img src="/assets/img/logo.png"></a></div>
             <div class="flex-grow-1"></div>
             <div class="align-self-center menu-top fade">
                 <div class="dropdown">

@@ -1,4 +1,6 @@
 ---
-title: Добро пожаловать!
+layout: empty
 ---
-Выберите интересующий вас раздел
+
+<meta http-equiv="refresh" content="0; url=/pages/{{page.lang}}/welcome/">
+<link rel="canonical" href="/pages/{{page.lang}}/welcome/" />

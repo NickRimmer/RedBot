@@ -1,0 +1,28 @@
+{% assign splitted_url_parts = page.url | split: '/' %}
+{% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/pages/{{page.lang}}"><i class="fa fa-home"></i></a></li>
+        {% for i in (1..forLoopMaxInt) %}
+            {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
+            {% capture current_breadcrumb_url %}{{ current_breadcrumb_url | replace: ".html/", ".html" }}{% endcapture %}
+            {% capture next_prepender %}{{next_prepender}}/{{ splitted_url_parts[i] }}{% endcapture %}
+
+            {% for breadcrumb_page in site.pages %}
+                {% if current_breadcrumb_url == breadcrumb_page.url %}
+                    {% assign j = forLoopMaxInt | plus: 0 %}
+                    {% capture breadcrumb_title %}{% if breadcrumb_page.breadcrumb %}{{breadcrumb_page.breadcrumb}}{% else %}{{breadcrumb_page.title}}{% endif %}{% endcapture %}
+
+                    {% if breadcrumb_title and breadcrumb_title!="" %}
+                        {% if i == j %}
+                            <li class="breadcrumb-item" aria-current="page">{{breadcrumb_title}}</li>
+                        {% else %}
+                            <li class="breadcrumb-item"><a href="{{breadcrumb_page.url}}">{{breadcrumb_title}}</a></li>
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </ol>
+</nav>

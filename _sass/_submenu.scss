@@ -2,9 +2,10 @@
     position: relative;
 
     .submenu{
-        position: absolute;
-        right: 20px;
-        top: 17px;
+        position: relative;
+        float: right;
+        top: -65px;
+        right: -20px;
         padding: 10px;
         border: solid 1px transparent;
         border-radius: 5px;

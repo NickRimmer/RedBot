@@ -13,11 +13,11 @@
                 {% include breadcrumbs.html %}
             {% endif %}
 
-            {% if page.submenu %}
-                {% include submenu.html %}
-            {% endif %}
-
             <article class="block-type-1">
+                {% if page.submenu %}
+                    {% include submenu.html %}
+                {% endif %}
+
                 {{ content }}
             </article>
 

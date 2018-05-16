@@ -19,4 +19,30 @@
             margin-bottom: 10px;
         }
     }
+
+    .site-content .submenu{
+        float: none;
+        top: 0;
+        right: 0;
+        padding: 0;
+        border: none;
+        background: none;
+        max-width: none;
+
+        .title{
+            display: none;
+        }
+
+        .links{
+            display: block;
+            padding: 0;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: solid 1px #d2ebff;
+
+            a{
+                padding: 3px 0;
+            }
+        }
+    }
 }

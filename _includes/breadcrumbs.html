@@ -1,8 +1,8 @@
 {% assign splitted_url_parts = page.url | split: '/' %}
 {% capture forLoopMaxInt %}{{ splitted_url_parts.size | minus:1 }}{% endcapture %}
 
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
+<nav aria-label="breadcrumb" class="mt-3 mt-sm-0">
+    <ol class="breadcrumb d-none d-sm-flex">
         <li class="breadcrumb-item"><a href="{% if page.lang %}/pages/{{page.lang}}/welcome/{% else %}/{% endif %}"><i class="fa fa-home"></i></a></li>
         {% for i in (1..forLoopMaxInt) %}
             {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}

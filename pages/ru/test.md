@@ -3,4 +3,7 @@ layout: empty
 permalink: /pages/ru/test2/
 ---
 
-Hello test!
+pages:
+{% for p in site.pages %}
+    {{p.url}}
+{% endfor %}

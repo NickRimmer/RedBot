@@ -1,0 +1,8 @@
+<div class="submenu">
+    <a href="#" class="title">Содержимое <i class="fa fa-align-justify"></i></a>
+    <div class="links">
+        {% for item in page.submenu %}
+        <a href="{{item.url}}">{{item.name}}</a>
+        {% endfor%}
+    </div>
+</div>

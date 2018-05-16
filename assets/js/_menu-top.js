@@ -1,6 +1,7 @@
 $(function(){
     updateMenuTop();
     eventsMenuTop();
+    eventsSubmenuTop();
 })
 
 function updateMenuTop(){
@@ -30,4 +31,14 @@ function eventsMenuTop(){
         /*$(".dropdown.show .dropdown-toggle", menu).dropdown('toggle');
         return false;*/
     });
+}
+
+function eventsSubmenuTop(){
+    var menu = $(".submenu");
+    if(menu.length==0) return;
+
+    $(".title", menu).on("click", function(){
+        menu.toggleClass("active");
+        return false;
+    })
 }

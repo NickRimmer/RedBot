@@ -1,0 +1,40 @@
+$breadcrumb-color: #353535;
+$breadcrumb-size: 14px;
+
+//@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css");
+
+.breadcrumb{
+    background: transparent;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+    li{
+        font-size: $breadcrumb-size;
+    }
+
+    a{
+        color: $breadcrumb-color;
+        font-size: $breadcrumb-size;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before{
+        font-family: "Font Awesome 5 Free";
+        content: "\f054";
+        font-weight: 900;
+        color: $breadcrumb-color;
+    }
+}
+
+.table {
+    background: #fff;
+
+    th{
+        background: #17a2b8;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    tr:nth-child(2n) td{
+        background: #f3fdff;
+    }
+}

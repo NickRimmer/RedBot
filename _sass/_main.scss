@@ -1,6 +1,3 @@
-body{
-    background: url("/assets/img/bg.jpg") top center no-repeat;
-}
 
 .site-header{
     background: white;
@@ -13,4 +10,42 @@ body{
             height: 100%;
         }
     }
+}
+
+.site-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer{
+    a{
+        color: #4b92c6;
+        font-size: 14px;
+
+        span{
+            margin-left: .3em;
+        }
+
+        &:hover{
+            text-decoration: none;
+
+            span{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .site-footer-container{
+        padding: 10px 20px;
+    }
+}
+
+.block-type-1{
+    background: #fff url("/assets/img/bg-block-type-1.png") center top;
+    padding: 25px 35px;
+    border-radius: 5px;
+    flex-grow: 1;
+
+    border: solid 1px #daefff;
 }

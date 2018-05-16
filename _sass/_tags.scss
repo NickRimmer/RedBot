@@ -1,0 +1,23 @@
+body{
+    background: url("/assets/img/bg.jpg") top center no-repeat fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    color: #353535;
+
+    a{
+        color: #1b5d8d;
+
+        &:hover, &.selected{
+            color: #c0282d;
+        }
+    }
+}
+
+blockquote{
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+}

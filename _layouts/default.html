@@ -7,9 +7,21 @@
 
     {% include header.html %}
 
-        <div class="hello">
-            {{ content }}
-        </div>
+        <section class="site-content container">
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i></a></li>
+                    <li class="breadcrumb-item"><a href="#">Re-D-Bot v1</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Инструкция по сборке</li>
+                </ol>
+            </nav>
+
+            <article class="block-type-1">
+                {{content}}
+            </article>
+
+        </section>
 
     {% include footer.html %}
 

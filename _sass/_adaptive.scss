@@ -1,0 +1,22 @@
+@include media-breakpoint-down(xs) {
+    .site-header .dropdown{
+        .dropdown-toggle{
+            font-size: 0em;
+
+            &:after{
+                font-size: 24px;
+                vertical-align: 0;
+                margin: 5px 0;
+            }
+        }
+    }
+
+
+    .site-footer-container .col{
+        padding: 0;
+
+        a{
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -14,7 +14,7 @@ links:
 # Build settings
 markdown: kramdown
 highlighter: rouge
-#permalink: pretty
+permalink: pretty
 
 exclude:
   - "*.bat"

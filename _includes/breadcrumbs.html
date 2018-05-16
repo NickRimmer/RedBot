@@ -3,7 +3,7 @@
 
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/pages/{{page.lang}}"><i class="fa fa-home"></i></a></li>
+        <li class="breadcrumb-item"><a href="{% if page.lang %}/pages/{{page.lang}}/welcome/{% else %}/{% endif %}"><i class="fa fa-home"></i></a></li>
         {% for i in (1..forLoopMaxInt) %}
             {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
             {% capture current_breadcrumb_url %}{{ current_breadcrumb_url | replace: ".html/", ".html" }}{% endcapture %}

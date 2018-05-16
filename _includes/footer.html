@@ -2,14 +2,7 @@
     <div class="container">
         <div class="site-footer-container">
             <div class="row">
-                <div class="col text-left">
-                    <a href="#" class="d-block d-md-inline"><i class="fab fa-github"></i><span>Стать соавтором</span></a>
-                    <a href="#" class="pl-sm-n pl-md-2 pl-lg-5 d-block d-md-inline"><i class="fa fa-heart font-weight-normal"></i><span>Поддержать проект</span></a>
-                </div>
-                <div class="col text-right">
-                    <a href="#" class="d-block d-md-inline"><i class="fab fa-telegram-plane"></i><span>Мы в телеграмме</span></a>
-                    <a href="https://www.redbot.info" class="pl-sm-n pl-md-2 pl-lg-5 d-block d-md-inline"><i class="fa fa-link"></i><span>RedBot.info</span></a>
-                </div>
+                {% include menu-footer-{{ lang | site.defaults.lang }}.html %}
             </div>
         </div>
     </div>

@@ -1,18 +1,16 @@
 <header class="site-header">
-        <div class="container">
-            <div class="d-flex h-100">
-                <div class="align-self-center"><a href="/"><img src="/assets/img/logo.png"></a></div>
-                <div class="flex-grow-1"></div>
-                <div class="align-self-center menu-top fade">
-                    <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                            <a class="dropdown-item active d-none" href="/">Добро пожаловать</a>
-                            <a class="dropdown-item" href="#">Re-D-Bot v1</a>
-                            <a class="dropdown-item" href="#">RedBot v2</a>
-                        </div>
-                      </div>
-                </div>
+    <div class="container">
+        <div class="d-flex h-100">
+            <div class="align-self-center"><a href="/"><img src="/assets/img/logo.png"></a></div>
+            <div class="flex-grow-1"></div>
+            <div class="align-self-center menu-top fade">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                        {% include menu-header-{{ lang | site.defaults.lang }}.html %}
+                    </div>
+                    </div>
             </div>
         </div>
-    </header>
+    </div>
+</header>

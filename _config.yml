@@ -18,3 +18,13 @@ exclude:
 
 sass:
   #style: compressed
+
+langs:
+  - code: en
+    name: English
+
+  - code: ru
+    name: Русский
+
+defaults:
+  lang: ru

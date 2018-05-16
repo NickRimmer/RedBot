@@ -19,12 +19,25 @@ exclude:
 sass:
   #style: compressed
 
-langs:
-  - code: en
-    name: English
-
-  - code: ru
-    name: Русский
+config:
+  default_lang: "ru"
 
 defaults:
-  lang: ru
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "pages/ru"
+      type: "pages"
+    values:
+      lang: "ru"
+  -
+    scope:
+      path: "pages/en"
+      type: "pages"
+    values:
+      lang: "en"

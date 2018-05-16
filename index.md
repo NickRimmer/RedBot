@@ -1,10 +1,6 @@
 ---
-layout: default
+layout: empty
 ---
 
-## В разработке...
-Главная страница еще не сделана (;
-
-## Under constraction
-Comming soon...
-
+<meta http-equiv="refresh" content="0; url=/pages/ru/">
+<link rel="canonical" href="/pages/ru/" />

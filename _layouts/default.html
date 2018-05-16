@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html>
-{% assign pageurl_array = page.url | split: "/" %}
-{% assign lang = pageurl_array[2] %}
 
-{% unless lang %}
-    {% assign lang = site.defaults.lang %}
-{% endunless %}
-
-{% include head.html lang=lang %}
+{% include head.html %}
 
     <body>
 
-    {% include header.html lang=lang %}
+    {% include header.html %}
 
         <section class="site-content container">
 
@@ -29,7 +23,7 @@
 
         </section>
 
-    {% include footer.html lang=lang %}
+    {% include footer.html %}
 
     </body>
 

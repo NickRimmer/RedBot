@@ -50,17 +50,6 @@
     border: solid 1px #daefff;
 }
 
-.content{
-    a:not(.btn){
-        text-decoration: none;
-        border-bottom: solid 1px #78d4ff;
-
-        &:hover{
-            border-bottom-color: #e2222b;
-        }
-    }
-}
-
 ul.list-style-1{
     li{
         list-style: none;

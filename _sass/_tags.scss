@@ -25,3 +25,9 @@ blockquote{
 h1, h2, h3, h4{
     font-weight: 200;
 }
+
+h2, h3, h4{
+    &:not(:first-child){
+        margin-top: 25px;
+    }
+}

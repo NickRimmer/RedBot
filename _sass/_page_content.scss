@@ -1,0 +1,14 @@
+.page-content{
+    a:not(.btn){
+        text-decoration: none;
+        border-bottom: solid 1px #78d4ff;
+
+        &:hover{
+            border-bottom-color: #e2222b;
+        }
+    }
+
+    img{
+        max-width: 100%;
+    }
+}

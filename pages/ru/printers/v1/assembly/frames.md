@@ -31,4 +31,4 @@ breadcrumb: Скелет принтера
 
 ---
 [Предыдущий этап](/pages/{{ page.lang }}/printers/v1/assembly/parts/){:.btn .btn-secondary .btn-icon-prev} [Следующий этап](/pages/{{ page.lang }}/printers/v1/assembly/prepares/){:.btn .btn-secondary .btn-icon-next}
-{:.text-center}
+{:.content-navigate}

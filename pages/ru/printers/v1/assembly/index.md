@@ -21,4 +21,4 @@ Re-D-Bot печатает без потери качества на скорос
 
 ---
 [Следующий этап](/pages/{{ page.lang }}/printers/v1/assembly/parts/){:.btn .btn-secondary .btn-icon-next}
-{:.text-center}
+{:.content-navigate}

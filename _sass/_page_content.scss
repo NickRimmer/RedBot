@@ -11,4 +11,19 @@
     img{
         max-width: 100%;
     }
+
+    .content-navigate{
+        text-align: center;
+
+        @include media-breakpoint-down(xs){
+            a{
+                display: block;
+                margin-bottom: 5px;
+
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
 }

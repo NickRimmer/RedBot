@@ -10,4 +10,4 @@ breadcrumb: Сборка основной рамы
 
 ---
 [Предыдущий этап](/pages/{{ page.lang }}/printers/v1/assembly/prepares/){:.btn .btn-secondary .btn-icon-prev} [Следующий этап](/pages/{{ page.lang }}/printers/v1/assembly/qweqwe/){:.btn .btn-secondary .btn-icon-next}
-{:.text-center}
+{:.content-navigate}

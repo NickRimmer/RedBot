@@ -50,4 +50,4 @@ breadcrumb: Подготовительная сборка
 
 ---
 [Предыдущий этап](/pages/{{ page.lang }}/printers/v1/assembly/frames/){:.btn .btn-secondary .btn-icon-prev} [Следующий этап](/pages/{{ page.lang }}/printers/v1/assembly/assembly_frames/){:.btn .btn-secondary .btn-icon-next}
-{:.text-center}
+{:.content-navigate}

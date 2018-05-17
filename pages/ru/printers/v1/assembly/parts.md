@@ -23,7 +23,7 @@ breadcrumb: Детали принтера
 
 ---
 [Предыдущий этап](/pages/{{ page.lang }}/printers/v1/assembly/){:.btn .btn-secondary .btn-icon-prev} [Следующий этап](/pages/{{ page.lang }}/printers/v1/assembly/frames/){:.btn .btn-secondary .btn-icon-next}
-{:.text-center}
+{:.content-navigate}
 
 
 [bom_list]: /pages/{{ page.lang }}/printers/v1/bom/

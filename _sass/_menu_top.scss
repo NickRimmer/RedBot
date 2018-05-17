@@ -1,0 +1,12 @@
+.menu-top{
+    a{
+        color: #000;
+        font-size: 16px;
+        font-weight: 200;
+        margin-left: 30px;
+
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+}

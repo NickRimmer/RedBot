@@ -3,13 +3,8 @@
         <div class="d-flex h-100">
             <div class="align-self-center"><a href="{% if page.lang %}/pages/{{page.lang}}/welcome/{% else %}/{% endif %}"><img src="/assets/img/logo.png"></a></div>
             <div class="flex-grow-1"></div>
-            <div class="align-self-center menu-top fade">
-                <div class="dropdown">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                        {% include {{page.lang}}/menu-header.html %}
-                    </div>
-                    </div>
+            <div class="align-self-center menu-top">
+                {% include {{page.lang}}/menu-header.html %}
             </div>
         </div>
     </div>

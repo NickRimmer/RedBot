@@ -39,5 +39,17 @@ $breadcrumb-size: 14px;
     }
 }
 
+.dropdown-item:not(.disabled){
+    &:hover, &:focus{
+        color: #c0282d;
+    }
+}
+
+.dropdown-item{
+    &.disabled, &:disabled{
+        pointer-events: none;
+    }
+}
+
 .font-size-md{ font-size: 16px; }
 .font-size-lg{ font-size: 18px; }

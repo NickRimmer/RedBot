@@ -9,8 +9,10 @@
 
         <section class="site-content container">
 
-            {% if page.no_breadcrumbs!=true %}
+            {% if page.breadcrumb-hide!=true %}
                 {% include breadcrumbs.html %}
+            {% else %}
+                <div class="pt-4"></div>
             {% endif %}
 
             <article class="{% if page.article_style and page.article_style!="" %}{{page.article_style}}{% else %}block-type-1{% endif %}">
@@ -19,7 +21,9 @@
                     {% include submenu.html %}
                 {% endif %}
 
-                {{ content }}
+                <span class="content">
+                    {{ content }}
+                </span>
 
             </article>
 

@@ -13,12 +13,14 @@
                 {% include breadcrumbs.html %}
             {% endif %}
 
-            <article class="block-type-1">
+            <article class="{% if page.article_style and page.article_style!="" %}{{page.article_style}}{% else %}block-type-1{% endif %}">
+
                 {% if page.submenu %}
                     {% include submenu.html %}
                 {% endif %}
 
                 {{ content }}
+
             </article>
 
         </section>

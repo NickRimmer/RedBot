@@ -49,3 +49,16 @@
 
     border: solid 1px #daefff;
 }
+
+ul.list-style-1{
+    li{
+        list-style: none;
+        &:before{
+            font-family: "Font Awesome 5 Free";
+            content: "\f0da";
+            font-weight: bold;
+            position: absolute;
+            margin-left: -13px;
+        }
+    }
+}

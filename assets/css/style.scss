@@ -2,9 +2,12 @@
 ---
 
 // let's go
+@import "_bootstrap";
+
 @import "_highlights";
 @import "_tags";
 @import "_main";
 @import "_submenu";
-@import "_bootstrap-overrides";
+@import "_page_welcome";
+
 @import "_adaptive";

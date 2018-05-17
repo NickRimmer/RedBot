@@ -16,6 +16,15 @@
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+
+    a:not(.btn){
+        text-decoration: none;
+        border-bottom: solid 1px #78d4ff;
+
+        &:hover{
+            border-bottom-color: #e2222b;
+        }
+    }
 }
 
 .site-footer{

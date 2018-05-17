@@ -9,4 +9,8 @@
             margin-left: 0;
         }
     }
+
+    @include media-breakpoint-down(xs){
+        display: none;
+    }
 }

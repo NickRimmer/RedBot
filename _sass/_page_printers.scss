@@ -57,6 +57,10 @@
         .info{
             flex-direction: column;
             align-items: center;
+
+            .description{
+                margin-left: 0;
+            }
         }
     }
 

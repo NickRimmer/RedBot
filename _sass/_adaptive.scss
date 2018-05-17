@@ -1,13 +1,11 @@
 @include media-breakpoint-down(xs) {
-    .site-header .dropdown{
-        .dropdown-toggle{
-            font-size: 0em;
-
-            &:after{
-                font-size: 24px;
-                vertical-align: 0;
-                margin: 5px 0;
-            }
+    .site-header {
+        .part-logo{
+            flex-grow: 1;
+            text-align: center;
+        }
+        .part-spacer{
+            flex-grow: 0!important;
         }
     }
 

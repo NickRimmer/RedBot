@@ -1,8 +1,28 @@
 $(function(){
+    setMenuTopActive();
     updateMenuTop();
     eventsMenuTop();
     eventsSubmenuTop();
 })
+
+function setMenuTopActive(){
+    var menu = $(".menu-top");
+    if(menu.length==0) return;
+
+    var active = $(".dropdown-item.active", menu);
+    if(active.length!=0) return;
+
+    var finded = false;
+    var current = window.location.href;
+    $(".dropdown-item", menu).each(function(i,el){
+        if(!finded && current.startsWith($(el).prop("href"))){
+            finded = true;
+            $(el).addClass("active");
+        }
+    })
+
+    if(!finded) $(".dropdown-item", menu).first().addClass("active");
+}
 
 function updateMenuTop(){
     var menu = $(".menu-top");

@@ -73,3 +73,17 @@ $breadcrumb-size: 14px;
         margin-right: 7px;
     }
 }
+
+.badge-normal{
+    font-size: 100%;
+    font-weight: normal;
+
+    font-style: normal!important;
+}
+
+// fix hover
+.table-hover{
+    tr:hover:nth-child(2n) td{
+        background: none;
+    }
+}

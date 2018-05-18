@@ -4,15 +4,15 @@ $(function(){
 })
 
 function submenuUpdateSticky(){
-    var stickyOffset = $(".submenu").offset().top;
-    $(".submenu").css("width", $(".submenu").width());
-    $(".submenu").css("height", $(".submenu").height());
+    var submenu = $(".submenu");
+    if(submenu.length==0) return;
+
+    var stickyOffset = submenu.offset().top;
+    submenu.css("width", submenu.width());
+    submenu.css("height", submenu.height());
 
     $(window).scroll(function(e){
-        var submenu = $(".submenu"),
-            scroll = $(window).scrollTop();
-
-        if(submenu.length==0) return;
+        var scroll = $(window).scrollTop();
 
         if(scroll >= stickyOffset) {
             submenu.addClass("sticky");

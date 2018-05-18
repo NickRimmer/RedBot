@@ -1,5 +1,5 @@
 ---
-title: Re-D-Bot 3D принтер - Инструкция по сборке - qweqwe
+title: Инструкция по сборке - qweqwe
 breadcrumb: qweqwe
 ---
 

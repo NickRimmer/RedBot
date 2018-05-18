@@ -5,6 +5,14 @@
     border-bottom: solid 1px #a2cbec;
     box-shadow: 0.157px 2.996px 6.72px 0.28px rgba(59, 151, 226, 0.13);
 
+    @include media-breakpoint-down(sm){
+        height: 60px;
+
+        .part-logo img{
+            height: 40px;
+        }
+    }
+
     .container{
         &, .row{
             height: 100%;

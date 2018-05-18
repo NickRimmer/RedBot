@@ -10,7 +10,39 @@
         }
     }
 
-    @include media-breakpoint-down(xs){
-        display: none;
+    .menu-top-burger{
+        padding: 10px 20px;
+    }
+
+    @include media-breakpoint-down(sm){
+        position: relative;
+
+        .menu-top-list{
+            position: absolute;
+            width: 220px;
+            right: 0;
+            background: white;
+            border: solid 1px #ccc;
+            z-index: 100;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 5px;
+
+            a{
+                display: block;
+                text-align: right;
+                padding: 8px 10px;
+
+                &:hover{
+                    background: #efefef;
+                }
+            }
+        }
+
+        &:hover{
+            .menu-top-list{
+                display: block!important;
+            }
+        }
     }
 }

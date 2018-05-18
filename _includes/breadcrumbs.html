@@ -3,7 +3,7 @@
 
 <nav aria-label="breadcrumb" class="mt-3 mt-sm-0">
     <ol class="breadcrumb d-none d-sm-flex">
-        <li class="breadcrumb-item"><a href="{% if page.lang %}/pages/{{page.lang}}/welcome/{% else %}/{% endif %}"><i class="fa fa-home"></i></a></li>
+        <li class="breadcrumb-item"><a href="{% if page.lang %}/pages/{{page.lang}}/printers/{% else %}/{% endif %}"><i class="fa fa-home"></i></a></li>
         {% for i in (1..forLoopMaxInt) %}
             {% capture current_breadcrumb_url %}{{next_prepender}}/{{ splitted_url_parts[i] }}/{% endcapture %}
             {% capture current_breadcrumb_url %}{{ current_breadcrumb_url | replace: ".html/", ".html" }}{% endcapture %}

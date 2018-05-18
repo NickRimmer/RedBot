@@ -7,5 +7,5 @@ layout: empty
     var lang = Cookies.get('lang');
     if(lang==undefined) lang="{{site.default_lang}}";
 
-    location="/pages/"+lang+"/welcome/";
+    location="/pages/"+lang+"/printers/";
 </script>

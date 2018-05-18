@@ -1,6 +1,7 @@
 ---
 layout: empty
 permalink: /pages/ru/test2/
+sitemap: false
 ---
 
 pages:

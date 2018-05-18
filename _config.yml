@@ -23,6 +23,9 @@ exclude:
 sass:
   #style: compressed
 
+plugins:
+  - jekyll-sitemap
+
 defaults:
   -
     scope:

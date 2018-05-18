@@ -7,6 +7,8 @@ submenu:
 
     - name: "Подраздел 2"
       url: "#2"
+
+sitemap: false
 ---
 
 # Пример H1 заголовка

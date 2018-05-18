@@ -1,5 +1,6 @@
 ---
 breadcrumb_hide: true
+sitemap: false
 ---
 
 ### TODO список

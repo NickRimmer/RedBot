@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Content examples
+sitemap: false
 ---
 
 # H1 title example

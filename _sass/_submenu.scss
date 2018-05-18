@@ -6,14 +6,17 @@
         float: right;
         top: -65px;
         right: -20px;
-        padding: 10px;
-        border: solid 1px transparent;
-        border-radius: 5px;
-        font-size: 14px;
-        max-width: 250px;
 
-        background: rgba(255,255,255,0);
-        transition: background ease-in-out 300ms;
+        .content{
+            padding: 10px;
+            border: solid 1px transparent;
+            border-radius: 5px;
+            font-size: 14px;
+            max-width: 250px;
+
+            background: rgba(255,255,255,0);
+            transition: background ease-in-out 300ms;
+        }
 
         .title{
             padding: 0 5px 8px;
@@ -49,8 +52,10 @@
         }
 
         &.active, &.sticky:hover{
-            background: rgba(255,255,255,.9);
-            border-color: #d2ebff;
+            .content{
+                background: rgba(255,255,255,.9);
+                border-color: #d2ebff;
+            }
 
             .title{
                 border-bottom-color: #d2ebff!important;
@@ -68,9 +73,11 @@
 
         @include media-breakpoint-up(sm){
             &.sticky{
-                position: absolute;
-                top: 18px;
-                right: 30px;
+                .content{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
 
                 &:not(.active){
                     .title{

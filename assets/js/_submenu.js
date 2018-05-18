@@ -4,6 +4,8 @@ $(function(){
 
 function submenuUpdateSticky(){
     var stickyOffset = $(".submenu").offset().top;
+    $(".submenu").css("width", $(".submenu").width());
+    $(".submenu").css("height", $(".submenu").height());
 
     $(window).scroll(function(e){
         var submenu = $(".submenu"),
@@ -14,12 +16,12 @@ function submenuUpdateSticky(){
         if(scroll >= stickyOffset) {
             submenu.addClass("sticky");
             submenu.removeClass("active");
-            if(isBreakpoint("sm")) submenu.css("margin-top", scroll - stickyOffset);
+            if(isBreakpoint("sm")) $(".content", submenu).css("margin-top", scroll - stickyOffset);
         }
         else {
             submenu.removeClass("sticky");
             submenu.addClass("active");
-            submenu.css("margin-top", 0);
+            $(".content", submenu).css("margin-top", 0);
         }
     })
 }

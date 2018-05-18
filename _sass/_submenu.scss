@@ -48,6 +48,15 @@
                     margin-left: -10px;
                     margin-top: -1px;
                 }
+
+                &.active{
+                    color: #e2222b;
+                    pointer-events: none;
+
+                    &:before{
+                        font-weight: bold;
+                    }
+                }
             }
         }
 

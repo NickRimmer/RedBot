@@ -1,5 +1,6 @@
 $(function(){
     submenuUpdateSticky();
+    submenuUpdateCurrent();
 })
 
 function submenuUpdateSticky(){
@@ -24,4 +25,11 @@ function submenuUpdateSticky(){
             $(".content", submenu).css("margin-top", 0);
         }
     })
+}
+
+function submenuUpdateCurrent(){
+    var current = location.href;
+    $("a", ".submenu").each(function(i,el){
+        if($(el).prop("href")==current) $(el).addClass("active");
+    });
 }

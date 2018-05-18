@@ -48,7 +48,7 @@
             }
         }
 
-        &.active{
+        &.active, &.sticky:hover{
             background: rgba(255,255,255,.9);
             border-color: #d2ebff;
 
@@ -64,6 +64,24 @@
         hr{
             margin: 5px 0;
             border-color: #d2ebff;
+        }
+
+        @include media-breakpoint-up(sm){
+            &.sticky{
+                position: absolute;
+                top: 18px;
+                right: 30px;
+
+                &:not(.active){
+                    .title{
+                        background: white;
+                        border: solid 1px #fff;
+                        border-radius: 10px;
+                        padding-bottom: 3px;
+                        opacity: .7;
+                    }
+                }
+            }
         }
     }
 }

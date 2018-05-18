@@ -14,7 +14,7 @@ breadcrumb: Сбор рамки стола
 Вначале удобнее всего будет собрать каретки оси Z `(4_Guide_Z.STL)`. Всего их 4 штуки.
 
 ![](/assets/img/assembly/r_25.JPG)
-![](/assets/img/assembly/19.JPG)
+![](/assets/img/assembly/19.jpg)
 
 #### Детали для сборки
 - **(1)** 3 шт, колесики OpenBuilds Micro V-Wheel

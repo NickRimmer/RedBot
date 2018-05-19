@@ -1,16 +1,8 @@
 ---
-title: Печатные детали - Список комплектующих
-breadcrumb: Печатные детали
+layout: empty
+breadcrumb: Компоненты
+sitemap: false
 ---
 
-{% include_relative _menu.html %}
-
-# Печатные детали
-Все печатные детали доступны для скачивания в нашем [репозитории на github](https://github.com/NickRimmer/RedBot/tree/master/printers/re_d_bot_v1).
-
-#### Формат названия файла
-В названии файла скрыта полезная информация, следующего формата: `Количество_Наименование.STL`.<br/>
-Наример файл с названием `4_Guide_Z.STL` обозначает, что это деталь называется *"Guide Z"* и их надо распечатать *4* штуки.
-
-#### Папки
-Почти все детали лежать в корневой папке. Кроме печатающей головы, она лежит в отдельной папке `"head"`.
+<meta http-equiv="refresh" content="0; url=/pages/{{page.lang}}/prints/">
+<link rel="canonical" href="/pages/{{page.lang}}/prints/" />

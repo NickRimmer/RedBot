@@ -15,7 +15,7 @@ breadcrumb: Стенки жесткости
 
 Крепить к профилю винтами М5х10 с шайбой. Квадратные гайки можно вставить в профиль собранного принтера, в этом может помочь пинцет или щипцы. Дырки под винты в стенке (фанере) лучше делать с запасом или примерять на принтере.
 
-![](/assets/img/assembly/50.JPG)
+![](/assets/img/assembly/50.jpg)
 
 ---
 [Предыдущий этап](/pages/{{ page.lang }}/printers/v1/assembly/belts/){:.btn .btn-secondary .btn-icon-prev} [Следующий этап](/pages/{{ page.lang }}/printers/v1/assembly/electronic/){:.btn .btn-secondary .btn-icon-next}

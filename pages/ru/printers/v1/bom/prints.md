@@ -6,7 +6,7 @@ breadcrumb: Печатные детали
 {% include_relative _menu.html %}
 
 # Печатные детали
-Все печатные детали доступны для скачивания в нашем [репозитории на github](https://github.com/NickRimmer/RedBot/tree/master/printers/re_d_bot_v1).
+Все печатные детали доступны для скачивания в нашем [репозитории на github](https://github.com/NickRimmer/RedBot/tree/master/printers/re_d_bot_v1/base/).
 
 #### Формат названия файла
 В названии файла скрыта полезная информация, следующего формата: `Количество_Наименование.STL`.<br/>

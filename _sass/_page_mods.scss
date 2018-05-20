@@ -55,15 +55,21 @@ $border-radius: 5px;
         background: white;
         border-radius: $border-radius $border-radius 0 0;
         position: relative;
+        transition: color .3s;
 
         .line1{
             font-size: 24px;
-            margin: 10px 0 -5px;
+            margin-top: 10px;
+            padding: 0 10px;
         }
 
         .line2{
             font-size: 18px;
             margin-bottom: 15px;
+            padding: 0 10px;
+            line-height: 1.2em;
+            color: #6b6b6b;
+            transition: color .3s;
         }
 
         &:after{
@@ -74,6 +80,7 @@ $border-radius: 5px;
             left: 0;
             height: 139px;
             width: 100%;
+            z-index: 1;
         }
     }
 
@@ -105,7 +112,9 @@ $border-radius: 5px;
         box-shadow: 0px 0px 20px 5px rgb(222, 240, 252);
 
         .title{
-            color: #2175ad;
+            &, .line2{
+                color: #2175ad;
+            }
         }
 
         .cover, &:before{

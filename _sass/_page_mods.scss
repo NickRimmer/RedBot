@@ -1,7 +1,12 @@
 $block-width: 285px;
-$base-color: #626262;
+//$base-color: #626262;
 $border-radius: 5px;
 
+.mods-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
 
 .mod-item, .page-content a.mod-item{
     width: $block-width;
@@ -12,10 +17,11 @@ $border-radius: 5px;
     display: flex;
     flex-direction: column;
     position: relative;
+    color: black;
 
     &::before{
         content: "";
-        background: $base-color;
+        //background: $base-color;
         width: 100%;
         height: 100%;
         left: 0;
@@ -70,7 +76,7 @@ $border-radius: 5px;
             position: absolute;
             width: 100%;
             top: 0;
-            background: linear-gradient($base-color, transparent);
+            //background: linear-gradient($base-color, transparent);
         }
     }
 

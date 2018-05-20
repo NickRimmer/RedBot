@@ -1,15 +1,24 @@
 <style>
-    .mod-item:before{
-        background: {{include.base_color}}!important;
+    .mod-item.override_{{include.id}}:before{
+        background: #{{include.base_color}};
     }
 
-    .mod-item .cover .top-gradient{
-        background: linear-gradient({{include.base_color}}, transparent)!important;
+    .mod-item.override_{{include.id}} .cover .top-gradient{
+        background: linear-gradient(#{{include.base_color}}, transparent);
     }
+
+    {% if(include.shadow) %}
+    .mod-item.override_{{include.id}} .title:after{
+        background: url("/assets/img/mods-title-shadow-{{include.shadow}}.png") repeat-x!important;
+    }
+
+    .mod-item.override_{{include.id}} .title{
+        background: #d2d2d2!important;
+    }
+    {% endif %}
 </style>
 
-
-<a href="{{include.link}}" class="mod-item">
+<a href="{{include.link}}" class="mod-item override_{{include.id}}">
     <div class="title">
         <div class="line1">{{include.title1}}</div>
         <div class="line2">{{include.title2}}</div>

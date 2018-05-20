@@ -16,6 +16,7 @@ order: 100
         <div class="links">
             <a href="https://github.com/NickRimmer/RedBot/tree/master/printers/re_d_bot_v1/mods/re_x_carriage/" target="_blank">Печатные детали</a>
             <a href="https://github.com/NickRimmer/RedBot/raw/master/printers/re_d_bot_v1/mods/re_x_carriage/Assembly-Ru.pdf" target="_blank">Подробная инструкция (PDF)</a>
+            <a href="https://www.thingiverse.com/thing:2590868" target="_blank">На www.thingiverse.com</a>
         </div>
     </div>
 </div>

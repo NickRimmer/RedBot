@@ -18,7 +18,8 @@ breadcrumb_hide: true
 
 Город | Контакты
 - | -
-Шуя (Ивановская область) | Олег Туманов, [<i class="fab fa-vk"></i>](https://vk.com/oitumanov){:target="_blank"} [<i class="fab fa-telegram-plane"></i> (@otumanov)](https://t.me/otumanov){:target="_blank"}
+Шуя (Ивановская область) | Олег Туманов, [<i class="fab fa-vk"></i>](https://vk.com/oitumanov) [<i class="fab fa-telegram-plane"></i> (@otumanov)](https://t.me/otumanov)
+Люберцы (Московская область) | Александр Колков, [<i class="fab fa-telegram-plane"></i> (@agcommsk)](https://t.me/agcommsk)
 {:.table .help-print-table}
 
 Если вы тоже желаете печатать детали принтера на заказ, вам необходимо быть в нашей группе в телеграмме. [Напишите нам](https://github.com/NickRimmer/RedBot/issues){:target="_blank"} от куда вы, и покажите примеры ваших принтов.

@@ -1,0 +1,23 @@
+---
+title: Re-D-Bot 3D принтер - Список комплектующих
+breadcrumb: Модификации
+---
+
+<h1>Список модификаций</h1>
+
+<div class="mt-4">
+{% capture mods %}/pages/{{page.lang}}/printers/v1/mods/list/{% endcapture %}
+
+{% assign pages = site.pages | sort:"order" %}
+{% for p in pages reversed %}
+    {% assign parts = p.url | split: "/" %}
+    {% assign size = parts.size | minus: 2 %}
+
+    {% if parts.size > 1 %}
+        {% capture path %}/{% for i in (1..size) %}{{parts[i]}}/{% endfor %}{% endcapture %}
+        {% if path==mods %}
+            {% include_relative _list_item_template.html base_color=p.base_color title1=p.title1 title2=p.title2 img_cover=p.img_cover link=p.url %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</div>

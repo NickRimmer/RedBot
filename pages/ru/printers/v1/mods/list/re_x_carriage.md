@@ -10,6 +10,16 @@ img_cover: /assets/img/v1/mods/re_x_carriage/cover.jpg
 order: 100
 ---
 
+<div class="submenu active">
+    <div class="content">
+        <span class="title">Скачать <i class="fa fa-download"></i></span>
+        <div class="links">
+            <a href="https://github.com/NickRimmer/RedBot/tree/master/printers/re_d_bot_v1/mods/re_x_carriage/" target="_blank">Печатные детали</a>
+            <a href="https://github.com/NickRimmer/RedBot/raw/master/printers/re_d_bot_v1/mods/re_x_carriage/Assembly-Ru.pdf" target="_blank">Подробная инструкция (PDF)</a>
+        </div>
+    </div>
+</div>
+
 # Модификация: Re-X-Carriage
 Titan Aero на колесах с V-Slot профилем 2040.
 

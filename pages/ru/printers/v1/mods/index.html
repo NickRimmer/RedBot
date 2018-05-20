@@ -9,6 +9,8 @@ breadcrumb: Модификации
 {% capture mods %}/pages/{{page.lang}}/printers/v1/mods/list/{% endcapture %}
 
 {% assign pages = site.pages | sort:"order" %}
+{% assign count = 0 %}
+
 {% for p in pages %}
     {% assign parts = p.url | split: "/" %}
     {% assign size = parts.size | minus: 2 %}
@@ -16,10 +18,20 @@ breadcrumb: Модификации
     {% if parts.size > 1 %}
         {% capture path %}/{% for i in (1..size) %}{{parts[i]}}/{% endfor %}{% endcapture %}
         {% if path==mods %}
+            {% assign count=count | plus:1 %}
             {% assign size2 = parts.size | minus: 1 %}
             {% capture id %}id{% for i in (1..size2) %}_{{parts[i]}}{% endfor %}{% endcapture %}
             {% include_relative _list_item_template.html base_color=p.base_color title1=p.title1 title2=p.title2 img_cover=p.img_cover link=p.url id=id shadow=p.shadow %}
         {% endif %}
     {% endif %}
 {% endfor %}
+
+{% assign count_modulo = count | modulo: 3 %}
+{% if count_modulo > 0 %}
+    {% assign count_remain = 3 | minus: count_modulo %}
+    {% for i in (1..count_remain) %}
+        <div class="mod-placeholder"></div>
+    {% endfor %}
+{% endif %}
+
 </div>

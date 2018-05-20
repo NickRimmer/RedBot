@@ -22,6 +22,12 @@ $border-radius: 5px;
     border-color: transparent;
 }
 
+@include media-breakpoint-down(md){
+    .mod-placeholder{
+        display: none;
+    }
+}
+
 .mod-item, .page-content a.mod-item{
     @extend %mod-item-base;
     box-shadow: 0px 0px 12.48px 0.52px rgba(0, 0, 0, 0.13);
@@ -104,6 +110,15 @@ $border-radius: 5px;
 
         .cover, &:before{
             filter: brightness($brightness);
+        }
+    }
+
+    @include media-breakpoint-down(sm){
+        height: auto;
+
+        .title:after,
+        .cover .top-gradient{
+            display:none;
         }
     }
 }

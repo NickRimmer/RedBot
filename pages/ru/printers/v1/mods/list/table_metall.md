@@ -10,4 +10,8 @@ img_cover: /assets/img/v1/mods/table_metall/cover.jpg
 order: 300
 ---
 
-# Hello my friend! 3
+# Модификация: Full-Metall Z-Axis
+Стол на 16 мм валах с аллюминиевыми уголками из магазина "Леруа".
+
+*мы пока неуспели написать тут текст (%*
+{:.alert .alert-info}

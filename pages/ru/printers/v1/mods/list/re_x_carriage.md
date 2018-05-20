@@ -10,4 +10,8 @@ img_cover: /assets/img/v1/mods/re_x_carriage/cover.jpg
 order: 100
 ---
 
-# Hello my friend!
+# Модификация: Re-X-Carriage
+Titan Aero на колесах с V-Slot профилем 2040.
+
+*интересная штука, о которой расскажем чуть позже (;*
+{:.alert .alert-info}

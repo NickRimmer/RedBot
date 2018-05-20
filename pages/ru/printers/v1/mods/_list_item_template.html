@@ -18,7 +18,11 @@
     {% endif %}
 </style>
 
+{% if include.external and include.external!="" %}
+<a href="{{include.external}}" target="_blank" class="mod-item override_{{include.id}} external">
+{% else %}
 <a href="{{include.link}}" class="mod-item override_{{include.id}}">
+{% endif %}
     <div class="title">
         <div class="line1">{{include.title1}}</div>
         <div class="line2">{{include.title2}}</div>

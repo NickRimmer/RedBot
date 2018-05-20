@@ -21,7 +21,7 @@ breadcrumb: Модификации
             {% assign count=count | plus:1 %}
             {% assign size2 = parts.size | minus: 1 %}
             {% capture id %}id{% for i in (1..size2) %}_{{parts[i]}}{% endfor %}{% endcapture %}
-            {% include_relative _list_item_template.html base_color=p.base_color title1=p.title1 title2=p.title2 img_cover=p.img_cover link=p.url id=id shadow=p.shadow %}
+            {% include_relative _list_item_template.html base_color=p.base_color title1=p.title1 title2=p.title2 img_cover=p.img_cover link=p.url external=p.external id=id shadow=p.shadow %}
         {% endif %}
     {% endif %}
 {% endfor %}

@@ -21,5 +21,5 @@ RedBot (Re-D-Bot) - это проект, который создан энтуз�
 
 ---
 
-[Исходники сайта](https://github.com/NickRimmer/RedBot/tree/gh-pages){:.btn .btn-success}
-[Pull request для новичка](https://github.com/urfu-2015/guides/blob/master/how-to-pull-request.md){:.btn .btn-info} (адрес репозитория `https://github.com/NickRimmer/RedBot.git`)
+[Исходники сайта](https://github.com/NickRimmer/RedBot/tree/gh-pages){:.btn .btn-success target="_blank"}
+[Pull request для новичка](https://github.com/urfu-2015/guides/blob/master/how-to-pull-request.md){:.btn .btn-info target="_blank"} (адрес репозитория `https://github.com/NickRimmer/RedBot.git`)

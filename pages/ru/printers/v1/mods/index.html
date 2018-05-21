@@ -17,7 +17,7 @@ breadcrumb: Модификации
 
     {% if parts.size > 1 %}
         {% capture path %}/{% for i in (1..size) %}{{parts[i]}}/{% endfor %}{% endcapture %}
-        {% if path==mods %}
+        {% if path==mods and p.draft!=true %}
             {% assign count=count | plus:1 %}
             {% assign size2 = parts.size | minus: 1 %}
             {% capture id %}id{% for i in (1..size2) %}_{{parts[i]}}{% endfor %}{% endcapture %}

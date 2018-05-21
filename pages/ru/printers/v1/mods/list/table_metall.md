@@ -8,6 +8,9 @@ title1: Full-Metall Z-Axis
 title2: Стол на 16 мм валах<br/>с аллюминиевыми уголками<br/>из Леруа
 img_cover: /assets/img/v1/mods/table_metall/cover.jpg
 order: 300
+
+# hide from list
+draft: true
 ---
 
 # Модификация: Full-Metall Z-Axis

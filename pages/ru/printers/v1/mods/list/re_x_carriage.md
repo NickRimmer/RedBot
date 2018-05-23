@@ -76,7 +76,7 @@ E3D Titan Aero набор (размер 175mm12v)[^titan] | 1 | [4 380 р/шт](
 {:.table .table-hover}
 
 Все цены указаны на момент добавления в список.
-{:.alert .alert-secondary}
+{:.alert .alert-info}
 
  [^self_locked_nuts]: Только если вы испольуете варианта с проставками для колес `Wheel_spacer_mini_8.STL`
  [^tensioners]: Можно использовать винты 25-40 мм, для натяжителей ремней

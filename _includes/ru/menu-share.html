@@ -1,0 +1,13 @@
+<article class="edit-controls">
+    <span class="share-title">Поделиться:</span>
+    <div class="share-social">
+        <script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
+        <script src="//yastatic.net/share2/share.js"></script>
+        <div class="ya-share2" data-services="vkontakte,facebook,odnoklassniki,gplus,twitter,lj,viber,whatsapp,skype,telegram"></div>
+    </div>
+    {% if page.edit_skip != true %}
+    <div class="control-edit">
+        <a href="https://github.com/NickRimmer/RedBot/edit/gh-pages/{{page.path}}" class="btn btn-xs btn-info" target="_blank"><i class="fa fa-edit"></i> редактировать</a>
+    </div>
+    {% endif %}
+</article>

@@ -1,2 +1,4 @@
 *.bat
 _site
+assets
+.jekyll-metadata

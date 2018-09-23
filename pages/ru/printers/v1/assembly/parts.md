@@ -24,5 +24,5 @@ breadcrumb: Детали принтера
 {:.content-navigate}
 
 
-[bom_list]: /pages/{{ page.lang }}/printers/v1/bom/prints/
+[bom_list]: /pages/{{ page.lang }}/printers/v1/bom/electronic/
 [print_parts]: https://github.com/NickRimmer/RedBot/tree/master/printers/re_d_bot_v1
